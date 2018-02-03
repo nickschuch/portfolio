@@ -1,0 +1,74 @@
+# Site settings
+baseURL = "https://nickschuch.com/"
+languageCode = "en-US"
+title = "Nick Schuch - Portfolio"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Nick Schuch"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  copyright = "&copy;2018 Nick Schuch"
+
+  # Section - Content
+  [params.content]
+    name = "Nick Schuch"
+    tagline = "Developer. Operator. Remote"
+    bio = "An operator based in Bundaberg, Australias Rum Capital! Nick is passionate about, Go, Kubernetes, Drupal and Photography."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "background.jpeg"
+      position = "center center"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Content"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://www.previousnext.com.au/about/team/nick-schuch"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/iamschuch"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/nick_schuch"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Code"
+
+      [[params.links.list3.link]]
+        text = "Github"
+        url = "https://github.com/nickschuch"
+
+      [[params.links.list3.link]]
+        text = "Drupal.org"
+        url = "https://www.drupal.org/u/nick_schuch"
