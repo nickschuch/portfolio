@@ -47,6 +47,10 @@ googleAnalytics = ""
         text = "Blog"
         url = "https://www.previousnext.com.au/about/team/nick-schuch"
 
+      [[params.links.list1.link]]
+        test = "Talks"
+        url = "https://github.com/nickschuch/talks"
+
   # Links List #2
   [[params.links]]
     [params.links.list2]
